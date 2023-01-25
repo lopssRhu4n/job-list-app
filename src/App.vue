@@ -61,6 +61,14 @@ const showDrawer = ref(false);
   <main
     class="w-full min-h-[80%] flex justify-center py-8 items-center flex-col gap-20 md:gap-5 bg-background"
   >
-    <RouterView />
+    <RouterView v-slot="{ Component }">
+      <transition
+        enter-active-class="animate__animated animate__fadeInRight"
+        leave-active-class="animate__animated animate__fadeOutRight"
+        mode="out-in"
+      >
+        <component :is="Component"></component>
+      </transition>
+    </RouterView>
   </main>
 </template>

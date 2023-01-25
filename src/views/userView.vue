@@ -7,7 +7,7 @@ const store = useUserStore();
 
 <template>
   <div
-    class="flex relative h-[600px] gap-5 w-full max-w-2xl flex-col items-center justify-center md:rounded-lg md:shadow-xl"
+    class="flex relative h-[600px] gap-5 w-full max-w-2xl flex-col items-center justify-center md:rounded-lg md:shadow-xl md:bg-white"
   >
     <font-awesome-icon
       icon="fa fa-user"
@@ -23,7 +23,7 @@ const store = useUserStore();
       :key="key"
       class="flex items-center pb-2 w-full px-8 max-w-xl border-b border-gray-700 justify-between h-12"
     >
-      <UserInfoLabel :text="info.text" :icon="info.icon" />
+      <UserInfoLabel :text="info.text" :icon="info.icon" :id="key" />
     </div>
 
     <div class="w-2/5 flex justify-around">

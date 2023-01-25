@@ -54,6 +54,7 @@ body, #app{
 }
 
 
+
 @media (max-width: 350px)  {
   body, #app{
     overflow-x: auto;

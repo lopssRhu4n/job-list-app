@@ -6,7 +6,9 @@ const store = useJobStore();
 </script>
 
 <template>
-  <div v-for="item in store.items" :key="item.id">
-    <DropZone :list="item.list"></DropZone>
+  <div class="flex justify-center py-8 items-center flex-col gap-20 md:gap-5">
+    <div v-for="item in store.items" :key="item.id">
+      <DropZone :list="item.list"></DropZone>
+    </div>
   </div>
 </template>
