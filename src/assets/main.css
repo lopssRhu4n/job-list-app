@@ -15,3 +15,47 @@ body, #app{
   overflow-x: hidden;
   text-shadow: 1px 1px rgba(0, 0, 0, 0.068);
 }
+
+.router-link-active{
+  @apply bg-darkCyan text-VeryDarkCyan
+}
+
+.fade-enter-from{
+  opacity: 0;
+}
+
+.fade-enter-active{
+  transition: all 1s ease;
+}
+
+.fade-leave-to{
+  opacity: 0;
+}
+
+.fade-leave-active{
+  transition: all 1s ease;
+}
+
+.fade-blur-enter-from{
+  opacity: 0;
+}
+
+
+.fade-blur-enter-active{
+  transition: all 1s ease;
+}
+
+.fade-blur-leave-to{
+  opacity: 0;
+}
+
+.fade-blur-leave-active{
+  transition: all 1s ease;
+}
+
+
+@media (max-width: 350px)  {
+  body, #app{
+    overflow-x: auto;
+  }
+}
