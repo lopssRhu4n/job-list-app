@@ -24,7 +24,7 @@ const startDrag = (event: DragEvent, item: any) => {
 <template>
   <div
     v-for="item in getList(props.list)"
-    class="relative shadow-xl border-l-4 rounded-md border-l-primary w-80 flex flex-col bg-white p-5 md:w-[860px] md:flex-row md:justify-between md:items-center"
+    class="relative shadow-xl border-l-4 rounded-md border-l-primary w-80 flex flex-col bg-white p-5 md:w-[960px] md:flex-row md:justify-between md:items-center"
     :key="item.id"
     draggable="true"
     @dragstart="startDrag($event, item)"

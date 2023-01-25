@@ -1,0 +1,28 @@
+[
+    {
+        "text": "Rhuan Lopes",
+        "icon": "fa fa-circle-user"
+    },
+     {
+        "text": "rhuanzinshow",
+        "icon": "fa fa-user"
+    },
+     {
+        "text": "FrontEnd Junior", 
+        "icon": "fa fa-user-tie"
+    },
+    
+     {
+        "text": "15/01/2005",
+        "icon": "fa fa-calendar-days"
+    },
+     {
+        "text":   "+55 21 99999-9999",
+        "icon":"fa fa-phone"
+    },
+    
+   {
+        "text":"rhuanlopesdev@gmail.com",
+        "icon": "fa fa-envelope"
+    }
+]

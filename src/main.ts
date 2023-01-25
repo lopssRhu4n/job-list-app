@@ -9,9 +9,35 @@ import { library } from "@fortawesome/fontawesome-svg-core";
 
 /* import font awesome icon component */
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
-import { faHome } from "@fortawesome/free-solid-svg-icons";
+import {
+  faBars,
+  faCalendarDays,
+  faCircleUser,
+  faCode,
+  faEnvelope,
+  faHome,
+  faPenToSquare,
+  faPhone,
+  faUser,
+  faUserTie,
+} from "@fortawesome/free-solid-svg-icons";
 
-library.add(faHome);
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
+
+library.add(
+  faBars,
+  faHome,
+  faUserTie,
+  faCode,
+  faUser,
+  faCircleUser,
+  faPhone,
+  faEnvelope,
+  faCalendarDays,
+  faLinkedin,
+  faGithub,
+  faPenToSquare
+);
 
 const app = createApp(App);
 
